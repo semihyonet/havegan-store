@@ -4,9 +4,15 @@ import React from 'react';
 import ProductList from "@/components/product_list/product_list";
 import {useRouter} from "next/navigation";
 
-const ProductListPage = ({params}) => {
+
+type ProductListPageParam = {
+    params: {
+        category_id: number
+    }
+}
+
+const ProductListPage = ({params}: ProductListPageParam) => {
     const category_id = params.category_id
-    console.log(category_id)
 
     return (
         <div>

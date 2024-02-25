@@ -169,11 +169,15 @@ const products = [
     // More products...
 ]
 
-function classNames(...classes) {
+function classNames(...classes : string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function ProductList({category_id}) {
+type ProductListProps = {
+    category_id: number
+}
+
+export default function ProductList({category_id}: ProductListProps) {
     return (
         <div className="bg-white">
             <div className="mx-auto max-w-7xl overflow-hidden sm:px-6 lg:px-8">

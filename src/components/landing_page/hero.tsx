@@ -16,19 +16,19 @@
 const collections = [
   {
     name: "Women's",
-    href: '#',
+    href: 'categories/women/',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-collection-01.jpg',
     imageAlt: 'Woman wearing an off-white cotton t-shirt.',
   },
   {
     name: "Men's",
-    href: '#',
+    href: 'categories/men',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-collection-02.jpg',
     imageAlt: 'Man wearing a charcoal gray cotton t-shirt.',
   },
   {
     name: 'House & Home',
-    href: '#',
+    href: 'categories/house-home',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-04-collection-03.jpg',
     imageAlt: 'Person sitting at a wooden desk with paper note organizer, pencil and tablet.',
   },
